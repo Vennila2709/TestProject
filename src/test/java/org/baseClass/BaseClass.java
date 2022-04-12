@@ -65,6 +65,8 @@ public class BaseClass {
    public static void rightClick(WebElement e) {
 	 Actions a=new Actions(driver);
 	 a.contextClick(e).perform();
+	 System.out.println("Vennila");
+	 System.out.println("Vennila");
    }
    
    public static String getCellString(int rowNo, int cellNo, String excelName, String SheetName) throws IOException {
