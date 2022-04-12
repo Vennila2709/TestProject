@@ -107,4 +107,8 @@ public class BaseClass {
    public static void quitDriver() {
 	   driver.quit();
    }
+   
+   public static void closeDriver() {
+	   driver.close();
+   }
 }
