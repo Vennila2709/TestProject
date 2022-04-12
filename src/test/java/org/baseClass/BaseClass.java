@@ -60,6 +60,9 @@ public class BaseClass {
    public static void SBV(WebElement e, String value) {
 	   Select s=new Select(e);
 	   s.selectByValue(value);
+	   s.selectByValue(value);
+	   s.selectByValue(value);
+	   s.selectByValue(value);
    }
    
    public static void rightClick(WebElement e) {
